@@ -1,0 +1,168 @@
+input[type=text],input[type=date], select ,input[type=button],input[type=number],input[type=email], input[type=password],input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover {
+    background-color: #551A8B;
+	box-shadow: 2px 3px 8px blue;
+}
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+ abc{
+      font-family:Agency FB;
+	  font-size:25px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px grey; 
+   } 
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+ ab{
+      text-align:center;
+   	  font-family:Agency FB;
+	  font-size:25px;
+	  font-weight:"bold"; 
+   } 
+  az{
+      text-align:center;
+   	  font-family:Agency FB;
+	  font-size:30px;
+	  font-weight:"bold";
+      text-shadow:2px 5px 8px pink;
+   } 
+ ax{
+      border:2px solid lime;
+	  background: cyan;
+	  border-radius:40px;
+	  box-shadow:8px 4px 7px green;
+	  padding:10px;
+	  width: 5%;
+      font:Agency FB;
+	  font-size:15px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px yellow; 
+}
+    karhana{
+      border:2px solid red;
+	  background: magneta;
+	  border-radius:40px;
+	  box-shadow:4px 5px 2px gold;
+	  padding:10px;
+	  width: 5%;
+      align: left;
+	  font:Agency FB;
+	  font-size:15px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px grey; 
+      -webkit-transition: width 2s, height 4s;
+	  transition: width 2s;
+}
+    avinash{
+      border:2px solid red;
+	  background: magneta;
+	  border-radius:40px;
+	  box-shadow:4px 5px 2px gold;
+	  padding:10px;
+	  align: right;
+	  width: 5%;
+      font:Agency FB;
+	  font-size:15px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px grey; 
+      -webkit-transition: width 2s, height 4s;
+	  transition: width 2s;
+}
+#avinashk{
+	 position:relative;
+	  float:right;
+      border:2px solid blue;
+	  background: cyan;
+	  border-radius:40px;
+	  box-shadow:8px 4px 7px green;
+	  padding:10px;
+	  width:70px;
+	  font-size:20px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px yellow; 
+	  transition: width 1.5s;
+}
+#avinashk:hover{
+	width:85px;
+}
+  kavinash{
+	  display:block;
+	  font-family: abel, sans-serif;
+	  font-size:22;
+      border:2px solid cyan;
+	  background: #DED9D8;
+	  border-radius:8px;
+	  box-shadow:4px 5px 2px red;
+	  padding:10px;
+	  align: right;
+      font:Agency FB;
+	  font-size:15px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px #1CF5B3; 
+      -webkit-transition: width 2s, height 4s;
+	  transition: width 2s;
+  }
+
+ ac{
+      font-family:Comic Sans;
+	  font-size:40px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px gold; 
+   } 
+     abc{
+      font-family:Agency FB;
+	  font-size:25px;
+	  font-weight:"bold";
+	  text-shadow:2px 5px 8px grey; 
+   } 
+avi{
+	font-family:almendra,serif;
+
+	font-size:25;
+   }
+   .button{
+    background-color: #518BC7;
+    border: none;
+    color: white;
+    padding: 15px 32px; <!--size of button-->
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.sbutton{
+    background-color: #518BC7;
+    border: none;
+    color: white;
+    padding: 4px 1px; <!--size of button-->
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
